@@ -1,5 +1,8 @@
 # The-Standard-FAQ
 
+## Vidéos:
+<img width=20 src="https://www.searchmarketingaustralia.com.au/wp-content/uploads/2017/10/original_images_YouTube.png" /> [AMA001: Questions About The Standard](https://www.youtube.com/watch?v=1de5nMDj8Ys)
+
 ## 1. I was looking otripleS solution you are directly exposing  domain entities but in my development career I was using viewmodel or DTO’s can you explain us when to use ViewModel or DTO?
 
 DTO approaches assume that the APIs are responsible for populating audit fields, ids ... etc.
@@ -32,7 +35,7 @@ Most of the time we want the issue, the commit and the PR to share the exact sam
 
 ## 3. Why should I be careful with the commit history of my PR?
 
-It's better to have only one commit, per initial PR, showing the implementation of one feature. This way people can easily replicate your work, in the future, by looking at all the files you had to change to resolve an issue.
+It's better to have clean commit history and to focus on one feature implementation at a time.This way, people can easily replicate your work, in the future, by looking at all the files you had to change to resolve an issue.
 
 ## 4. How to start contributing to a project?
 
