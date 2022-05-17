@@ -35,7 +35,7 @@ Most of the time we want the issue, the commit and the PR to share the exact sam
 
 ## 3. Why should I be careful with the commit history of my PR?
 
-It's better to have clean commit history and to focus on one feature implementation at a time.This way, people can easily replicate your work, in the future, by looking at all the files you had to change to resolve an issue.
+It's better to have a clean commit history and to focus on a single implementation at a time. This way, people can easily replicate your work, in the future, by looking at all the files you had to change to resolve an issue.
 
 ## 4. How to start contributing to a project?
 
