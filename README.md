@@ -36,7 +36,7 @@ It's better to have only one commit, per initial PR, showing the implementation 
 
 ## 4. How to start contributing to a project?
 
-Look at "[How To Contribute to Open Source Community?]"(https://youtu.be/mR0N-QxZqYY?t=458)
+Look at [How To Contribute to Open Source Community?](https://youtu.be/mR0N-QxZqYY?t=458)
 
 ## 5. How to do a Pull Request the right way ?
 
