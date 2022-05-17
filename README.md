@@ -12,7 +12,7 @@ But in reality there are scenarios where you want to let the consumer control th
 
 users/[github-username]/[Issue-type/category]-[entity]-[action]
 
-Look at this video at the 25:10 mark https://youtu.be/mR0N-QxZqYY?t=1510
+Look at this [video at the 25:10 mark](https://youtu.be/mR0N-QxZqYY?t=1510)
 
 It helps you search branches and help you focus on one thing at a time.
 
