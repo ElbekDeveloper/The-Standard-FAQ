@@ -37,6 +37,59 @@ Most of the time we want the issue, the commit and the PR to share the exact sam
 
 It's better to have a clean commit history and to focus on a single implementation at a time. This way, people can easily replicate your work, in the future, by looking at all the files you had to change to resolve an issue.
 
+We asked Hassan Rezk Habib :
+
+>Why should I be careful with the commit history of my PR?
+>
+>Hassan :
+>I'm just using the commit history as a vehicle to establish 3 things. Three important things. 
+>
+>1. Logging or history of how a feature was implemented. 
+>
+>That commit history helps me know whether this code was actually test driven or not, right? There's no way you can actually determine that some code was written in a good quality, unless there is a commit history that says, "here's a failing test that we committed, and here's a passing test that made it past". 
+>
+>Okay now, any smart guy out there could hack it, right? 
+>(...)
+>Eventually you're going to get tired (...), because it makes you feel bad. You know you're cheating.
+>
+>So, I want to make sure of "How the code was written". 
+>
+>It is embedded and recorded in the pull request itself, including these very tiny break off sessions. I look at some of my team work and I say OK between 12:00 and 1:00, we actually split off to go have lunch and come back. 
+>
+>Someone else might be seeing just commits. I'm seeing a story of how that code came to be, so that's number one. It helps us know where the code came from and where it's going. 
+>
+>2. It establishes fairness. 
+>
+>What does that mean? 
+>
+>Sometimes you can't have more than one engineer creating the pull request. So, if it's only one engineer creating the pull request, there's no way I can tell who else contributed to that code. 
+>
+>This is how GitFyle (Hassan's web-app for GitHub stats) determines that you were pairing, that you contributed to foundation services, brokers, and all that kind of stuff, by looking at this commit history and seeing who else contributed to that. 
+>
+>There are a lot of smart engineers out there, that don't speak up for themselves. And then, there's this cowboy engineer that comes in, and says, "hey, let me just wrap it up and make the final commit", and then they take all the credit for the work. 
+>
+>That's not fair. 
+>
+>These engineers, the other engineers that are actually doing the hard work, they become invisible because there's no data that says, that they actually were a part of developing this awesome feature, so establishes its fairness in the world. 
+>
+>Now to the third thing. Which is the most important part.
+>
+>3. It plays as an educational tool. 
+>
+>How is that the case? 
+>
+>You want to know what it's like to write a failing test. 
+>
+>And what it's like to make it pass? 
+>
+>This will show you that.
+>
+>In fact, the commit history is more, much more, valuable than "The Standard" (Hassan's book on software engineering) Itself. 
+>
+>Because "The Standard" is just a bunch of ideas and theories, but the commit history is how these ideas come to life, and become living, breathing...you know... moments in your life that... I use the code to record... "This is me, recording a very precious moment"... in your life when you are changing the world. One line of code at a time.
+>
+>Does that make sense?
+
 ## 4. How to start contributing to a project?
 
 Look at [How To Contribute to Open Source Community?](https://youtu.be/mR0N-QxZqYY?t=458)
