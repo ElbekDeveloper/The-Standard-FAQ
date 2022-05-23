@@ -97,3 +97,16 @@ Look at [How To Contribute to Open Source Community?](https://youtu.be/mR0N-QxZq
 ## 5. How to do a Pull Request the right way ?
 
 If possible the PR name should reflect an open issue's name. Be careful of case. All caps for the main category, and capitalized for the title (like a news article title), and separated by colon. Most of the time we want the issue, the commit and the PR to share the exact same name.
+
+## 6. Guys are suggesting to use Rule class instead of dynamic object for validations. I like this idea too. What is the advantage of using dynamic object over this class? Can you please explain this to us...
+![image](https://user-images.githubusercontent.com/52498074/169750016-fbe14145-c787-42ff-839b-83373d459bea.png)
+![image](https://user-images.githubusercontent.com/52498074/169750038-67745e89-eb59-4668-9be4-c8a39659d8c5.png)
+It is against our intent to build monolith with microservice in mind. It is against Entanglement Principle: 
+0.2.0.0.1 Entanglement
+Building "common" components in every system with the promise to simplify the development process is another prohibited practice in Standard-compliant systems. This practices manifests itself in components with names like Utils, Commons or Helpers. These terminologies and what they imply in terms of a false promised simplifications are not allowed. Any system built according to The Standard should be comprised of Brokers, Services or Exposers, nothing more or less.
+
+This principle also applies to scenarios where base components are used. Unless these base components are native or external they will not be allowed in a Standard-compliant system. local base components create a vertical level of entanglement that harms the maintainability and readability of code. Vertical entanglements are just as harmful as Commons components that create single points of failure across any system.
+
+Entanglements (vertical or horizontal) also prevents engineers in any system (especially newcomers) from fully understanding the depth of the system and fully own it's functionality. It also prevents engineers from having the opportunity from building end-to-end flows when half of the functionality is presumably componentized for the sake of development expedition and simplicity.
+[Source](https://github.com/hassanhabib/The-Standard/blob/master/0.%20Introduction/0.2%20Principles.md#02001-entanglement)
+
