@@ -110,3 +110,6 @@ This principle also applies to scenarios where base components are used. Unless 
 Entanglements (vertical or horizontal) also prevents engineers in any system (especially newcomers) from fully understanding the depth of the system and fully own it's functionality. It also prevents engineers from having the opportunity from building end-to-end flows when half of the functionality is presumably componentized for the sake of development expedition and simplicity.
 [Source](https://github.com/hassanhabib/The-Standard/blob/master/0.%20Introduction/0.2%20Principles.md#02001-entanglement)
 
+![image](https://user-images.githubusercontent.com/52498074/169750312-adbc2d68-61af-4b62-8e2a-8581bdb70b52.png)
+
+
